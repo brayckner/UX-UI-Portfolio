@@ -1,14 +1,18 @@
-# Default starter for Gridsome
+# ux-ui-portfolio
 
-This is the project you get when you run `gridsome create new-project`.
 
-### 1. Install Gridsome CLI tool if you don't have
+> 2019 Professional UX/UI Protfolio built by @mezerotm
 
-`npm install --global @gridsome/cli`
+## Table of Contents
 
-### 2. Create a Gridsome project
+- [Maintainers](#maintainers)
+- [License](#license)
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Maintainers
+
+[@mezerotm](https://github.com/mezerotm)
+
+
+## License
+
+All Rights Reserved © 2019 Brayckner Torress
