@@ -3,7 +3,7 @@
         h1.text-center.font-semibold.text-gray-500.text-4xl Projects
         ul.flex.flex-col
             li.flex.my-5.mx-auto.justify-between
-                g-image(class="w-1/2" src="~/assets/images/rolecall.png")
+                g-image(class="w-1/2" src="~/assets/images/rolecall.png" immediate="true")
                 div.flex.flex-col.justify-between(class="w-1/3")
                     div
                         h2.font-semibold.text-2xl RoleCall
@@ -12,7 +12,7 @@
                         span.text-white.font-semibold View Project
 
             li.flex.my-5.mx-auto.justify-between
-                g-image(class="w-1/2" src="~/assets/images/atlanta_botanical.png")
+                g-image(class="w-1/2" src="~/assets/images/atlanta_botanical.png" immediate="true")
                 div.flex.flex-col.justify-between(class="w-1/3")
                     div
                         h2.font-semibold.text-2xl Atlanta Botanical Garden

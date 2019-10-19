@@ -121,7 +121,7 @@
                         span.text-2xl.text-green-600.pl-2 User
                     div.relative
                         div
-                            g-image(src="~/assets/images/seth_doyle.png")
+                            g-image(src="~/assets/images/seth_doyle.png" immediate="true")
                         div.absolute.inset-y-0.right-0.mr-5(class="lg:w-1/3 md:w-1/2")
                             div.shadow-md.p-5.bg-white.h-full
                                 p.text-gray-500 Name: Brooke

@@ -1,10 +1,29 @@
 <template lang="pug">
     Layout
-        div.flex.justify-center.h-64.mt-32
-            div.flex.flex-col
-                h1.text-center.text-green-600.text-6xl Atlanta Botanical Garden.
+        div.relative.mt-5
+            div
+                g-image(src="~/assets/images/botanical_header.png" immediate="true")
+            div.absolute.inset-0
+                div.flex.justify-center.h-full
+                    div.flex.flex-col.justify-center
+                        h1.text-center.text-white.text-6xl Atlanta Botanical Garden
+                        div.flex.mt-20
+                            div.mr-8
+                                p.text-white.text-2xl.py-2.max-w-md Project:
+                                p.text-white.text-2xl.py-2.max-w-md Role:
+                                p.text-white.text-2xl.py-2.max-w-md Date:
+                                p.text-white.text-2xl.py-2.max-w-md Description:
+                            div.ml-8
+                                p.text-white.text-2xl.py-2.max-w-lg Atlanta Botanical Garden Redesign
+                                p.text-white.text-2xl.py-2.max-w-lg UX Researcher, Wireframes, Usability Testing
+                                p.text-white.text-2xl.py-2.max-w-lg June 17th - July 1st
+                                p.text-white.text-2xl.py-2.max-w-lg.
+                                    This project is a redesign of Atlanta Botanical
+                                    Gardens website. It was a two week sprint where
+                                    I was in a team of two other UX designers,
+                                    Taiwo Akintayo, and Chanel French.
 
-        div.container.mx-auto
+        div.container.mx-auto.mt-20
             div.py-5
                 h1.text-2xl.font-extrabold Atlanta Botanical Garden's Business
                 h1.text-2xl.font-extrabold Goals
@@ -51,15 +70,15 @@
                     div.flex.justify-start
                         h3.text-2xl Contextual Inquiry
                     div.flex.justify-around.my-5
-                        div.mx-10(class="w-1/3")
+                        div.flex.flex-col.mx-1.justify-center(class="w-1/3")
                             g-image(src="~/assets/images/contextual_inquiry_0.png")
-                        div.mx-10(class="w-1/2")
+                        div.mx-1.max-w-2xl
                             div.shadow-md.p-5.mb-5
-                                p.text-gray-500.text-center.text-xl "[The navigation] wasn't Immediately intuitive"
+                                p.text-gray-500.text-center.text-xl.px-10 "[The navigation] wasn't Immediately intuitive"
                             div.shadow-md.p-5.mb-5
-                                p.text-gray-500.text-center.text-xl "There's a ridiculous amount of membership levels"
+                                p.text-gray-500.text-center.text-xl.px-10 "There's a ridiculous amount of membership levels"
                             div.shadow-md.p-5.mb-5
-                                p.text-gray-500.text-center.text-xl "It's weird that I clicked on 'orchid Membership' and it took me to all the Memberships, minus the pictures"
+                                p.text-gray-500.text-center.text-xl.px-10 "It's weird that I clicked on 'orchid Membership' and it took me to all the Memberships, minus the pictures"
 
             div.py-5
                 h2.text-center.text-gray-500.text-2xl.py-5 Define
@@ -91,6 +110,104 @@
                         | But who's the person going through the
                         span.text-blue-500.px-1 journey?
                     g-image.w-full(src="~/assets/images/jourey_sophia.png")
+
+            div.py-5
+                h2.text-center.text-gray-500.text-2xl.py-5 Problem
+                div.h-4.w-64.bg-black.my-2
+
+                div.py-5
+                    div.flex.justify-between
+                        h3.text-2xl.font-bold What's The Problem?
+
+                div.flex.justify-center.mx-10.py-5
+                    div.flex.flex-col.py-5.max-w-lg
+                        p.text-gray-500.text-2xl Visitors to Atlanta Botanical Garden want to gain access to the gardens by quick and simple means. They need a website that clearly provides them concise options with a straight forward checkout process.
+
+                div.flex.justify-center
+                    div.flex.justify-around
+                        div.flex-col.justify-center.max-w-md.m-5
+                            g-image.h-full(src="~/assets/images/problem_screenshot_0.png")
+                        div.flex-col.justify-center.max-w-md.m-5
+                            g-image.h-full(src="~/assets/images/problem_screenshot_1.png")
+
+            div.py-5
+                h2.text-center.text-gray-500.text-2xl.py-5 The Solution
+                div.h-4.w-64.bg-black.my-2
+
+                div.flex.justify-center.mx-10.py-5
+                    div.flex.flex-col.py-5.max-w-2xl
+                        p.text-gray-500.text-xl.text-center
+                            span.py-2.px-1.block We believe that by simplifying and streamlining the site, we will
+                            span.py-2.px-1.block achieve a higher success rate in task completion.
+                            span.py-2.px-1.block We will know this to be true when 80% of our users can complete the
+                            span.py-2.px-1.block task with minimal issues.
+
+                div.py-5
+                    div.flex.flex-col
+                        h3.text-2xl Sketching
+                        div.flex
+                            div.m-1
+                                g-image.w-64(src="~/assets/images/sketching_screenshot_0.png")
+                            div.m-1
+                                g-image.w-64(src="~/assets/images/sketching_screenshot_1.png")
+                            div.m-1
+                                g-image.w-64(src="~/assets/images/sketching_screenshot_2.png")
+                        div.flex
+                            div.m-1
+                                g-image.w-64(src="~/assets/images/sketching_screenshot_3.png")
+
+                div.w-full
+                    div.flex.justify-end
+                        div.shadow-md.p-5.mr-2.max-w-lg
+                            div.flex.flex-col
+                                h4.text-2xl.pb-5 Cardsorting
+                                p.text-gray-500 The ABG site had a lot of information, and due to that. our team needed to understand how our users see and understand the information presented to them,
+                                div.flex.flex-col.justify-center
+                                    div.flex.p-2.justify-center
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                    div.flex.p-2.justify-center
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                                        div.h-8.shadow-md.mx-2(class="w-1/6")
+                        div
+                            g-image.w-64(src="~/assets/images/cardsorting_screenshot_0.png")
+
+            div.py-5
+                h2.text-center.text-gray-500.text-2xl.py-5 Wireframes & Iterations
+                div.h-4.w-64.bg-black.my-2
+
+                div.flex.mt-10
+                    div.mr-2
+                        g-image(src="~/assets/images/wireframe_screen_0.png")
+                    div
+                        g-image(src="~/assets/images/wireframe_screen_1.png")
+                    div.flex.flex-col.ml-2
+                        g-image(src="~/assets/images/wireframe_screen_2.png")
+                        div.my-20
+                            p.text-gray-500 Some of the first wireframes that were based on sketches and research
+
+            div.py-5
+                div.flex
+                    div.mr-2
+                        g-image(src="~/assets/images/wireframe_screen_3.png")
+                    div
+                        g-image(src="~/assets/images/wireframe_screen_4.png")
+                    div.ml-2
+                        g-image(src="~/assets/images/wireframe_screen_5.png")
+
+
+            div.flex.mt-10
+                div.mr-2
+                    g-image(src="~/assets/images/wireframe_screen_6.png")
+                div
+                    g-image(src="~/assets/images/wireframe_screen_7.png")
+                div.flex.flex-col.ml-2
+                    div.my-20
+                        p.text-gray-500 The final versions include changes made such as the membership screen, and the ticket buying page. By the last usability test users reported…
 
 
             div.py-5

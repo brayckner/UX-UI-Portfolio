@@ -1,7 +1,7 @@
 <template lang="pug">
     Layout
         div.min-w-full.mx-auto.my-5
-            g-image(src='~/assets/images/hero.jpg')
+            g-image(src='~/assets/images/hero.jpg' immediate="true")
         #projects.container.mx-auto
             the-projects
 
