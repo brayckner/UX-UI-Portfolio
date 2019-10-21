@@ -1,7 +1,13 @@
 module.exports = {
   siteName: 'Brayckner',
-  siteUrl: 'https://www.example.com',
+  siteUrl: 'https://www.brayckner.com',
   plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-150615032-1'
+      }
+    },
     {
       // https://www.npmjs.com/package/@gridsome/plugin-sitemap
       use: '@gridsome/plugin-sitemap',
