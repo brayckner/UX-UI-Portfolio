@@ -15,4 +15,4 @@
 
 ## License
 
-All Rights Reserved © 2019 Brayckner Torress
+All Rights Reserved © 2019 Brayckner Torres
